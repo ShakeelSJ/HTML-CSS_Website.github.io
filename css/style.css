@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: arial,helvetica,sens-serif;
+}
+main{
+	width: 100%;
+	height: 1200px;
+	background-color: #dbdbdb;
+}
+.clearfix{
+	clear: both;
+}
+
+/*-----------------------------------------------MAIN LAYOUT--------------------------------------*/
+
+nav{
+	width: 100%;
+	height: 50px;
+	background-color: #dbdbdb;
+}
+header{
+	width: 100%;
+	height: 200px;
+	background-color: #444c58;
+}
+section{
+	width: 100%;
+	/*height: 300px;*/
+}
+footer{
+	width: 100%;
+	height: 20px;
+	background-color: #444c58;
+}
+/*-----------------------------------------------END----------------------------------------------*/
+
+/*----------------------------------------CHILD LAYOUT--------------------------------------------*/
+.inner-nav{
+    width: 60%;
+    height: 50px;
+    background-color: #dbdbdb;
+    margin: 0px auto;
+}
+ul{
+	list-style: none;
+}
+.inner-nav ul li a{
+	float: left;
+	text-decoration: none;
+	color: black;
+	padding: 6px 15px;
+	margin: 10px;
+}
+.inner-nav ul li a:hover{
+	background-color: #444c58;
+    color: white;
+    border-radius: 5px;
+}
+div.inner-header{
+	width: 60%;
+    height: 50px;
+    background-color: #444c58;
+    margin: 0px auto; 
+    text-align: center;
+    color: white;  
+}
+.inner-img{
+	width: 60%;
+	height: 130px;
+	margin-left: 20%;
+}
+figcaption a{
+	position: relative;
+    top: -25px;
+    left: 200px;
+    color: white;
+    font-size: 11px;
+}
+.inner-section{
+    width: 60%;
+    /*height: 300px;*/
+    margin: 0px auto;
+}
+.description{
+	font-size:12px;
+	padding: 10px;
+}    
+article{
+	width: calc(30% - 20px);
+	height: 200px;
+	background: #efefef;
+	float: left;
+	margin:10px;
+	padding: 10px;
+	font-size: 11px;
+	box-shadow: 1px 1px 1px 5px #ccc;
+}
+article img{
+	width: 100%;
+	height: 100px;
+}
+article h3{
+	text-align: center;
+	font-family: arial;
+}
+button{
+	margin: 10px;
+	margin-left: 45px;
+	border-radius: 8px;
+	background-color: white;
+	padding: 1.5px;
+}
+.newsfeed{
+	width:60%;
+	height: 100px;
+	background-color:#444c58;
+	border-radius: 10px;
+	margin: 0px auto;
+	margin-bottom: 8px;
+	color: white;
+	font-size: 14px;
+}
+.news{
+	width: 30%;
+	height: 100px;
+	margin: 10px;
+	float: left;
+	text-align: center;
+    padding-top: 5px;
+    font-size: 11px;
+}
+.newsbtn{
+    margin: 8px;
+	margin-left: 5px;
+	border-radius: 8px;
+	background-color: white;
+	font-size: 10px;	
+}
+#footer{
+	width: 100%;
+	clear: both;
+	text-align: center;
+	padding-top: 10px;
+	color: white;
+	font-size: 14px; 
+}
